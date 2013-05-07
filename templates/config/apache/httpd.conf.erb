@@ -473,7 +473,7 @@ Include <%= scope.lookupvar "apache::config::configdir" %>/extra/httpd-userdir.c
 #Include <%= scope.lookupvar "apache::config::configdir" %>/extra/httpd-info.conf
 
 # Virtual hosts
-#Include <%= scope.lookupvar "apache::config::configdir" %>/extra/httpd-vhosts.conf
+Include <%= scope.lookupvar "apache::config::configdir" %>/extra/httpd-vhosts.conf
 
 # Local access to the Apache HTTP Server Manual
 Include <%= scope.lookupvar "apache::config::configdir" %>/extra/httpd-manual.conf
